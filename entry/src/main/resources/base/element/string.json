@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "app_title",
+      "value": "NearLink Scanner"
+    },
+    {
+      "name": "status_scanning",
+      "value": "Status: Scanning..."
+    },
+    {
+      "name": "status_idle",
+      "value": "Status: Idle"
+    },
+    {
+      "name": "btn_stop",
+      "value": "Stop Scan"
+    },
+    {
+      "name": "btn_start",
+      "value": "Start Scan"
+    },
+    {
+      "name": "msg_searching",
+      "value": "Searching for devices..."
+    },
+    {
+      "name": "msg_no_devices",
+      "value": "No devices found or scan is off."
+    },
+    {
+      "name": "device_unknown",
+      "value": "Unknown"
+    },
+    {
+      "name": "toast_enable_nearlink",
+      "value": "Please enable NearLink/Bluetooth."
+    },
+    {
+      "name": "rssi_format",
+      "value": "%d dBm"
+    },
+    {
+      "name": "log_perm_req",
+      "value": "Permissions Requested"
+    },
+    {
+      "name": "log_scan_started",
+      "value": "Scan Started"
+    },
+    {
+      "name": "log_scan_stopped",
+      "value": "Scan Stopped"
+    }
+  ]
+}
