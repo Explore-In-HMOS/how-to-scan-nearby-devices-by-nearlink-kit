@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.howtoscannearbydeviceswithnearlink",
+    "bundleName": "com.hmosdemos.wearable.how_to_scan_nearby_devices_with_nearlink",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

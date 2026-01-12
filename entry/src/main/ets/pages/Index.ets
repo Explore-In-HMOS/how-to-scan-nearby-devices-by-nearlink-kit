@@ -20,7 +20,6 @@ export struct Index {
   @State scanning: boolean = false;
   @State devices: Array<SimpleDevice> = [];
 
-  // Filter ID (Optional)
   private targetManufacturerId: number = 4567;
 
 
@@ -78,7 +77,7 @@ export struct Index {
   private async startScan() {
     if (!this.nearlinkOn) {
       // Toast: Please enable NearLink...
-      promptAction.showToast({ message: $r('app.string.toast_enable_nearlink') });
+      promptAction.openToast({ message: $r('app.string.toast_enable_nearlink') });
       return;
     }
     if (this.scanning) {
@@ -207,7 +206,7 @@ export struct Index {
                 .margin({ bottom: 12 })
                 .backgroundColor('#1C1C1E')
                 .borderRadius(16)
-              })
+              }, (dev: SimpleDevice) => dev.address)
             }
           }
           .width('90%')

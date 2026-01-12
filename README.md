@@ -3,7 +3,7 @@
 # How To Scan Nearby Devices With NearLink
 
 This HarmonyOS application utilizes the NearLink Kit to perform real-time scanning and discovery of nearby devices. It features a modern, scrollable dark-mode interface that displays device names, MAC addresses, and signal strength (RSSI) for efficient monitoring.
-## Preview
+# Preview
 
 <div>    
   <img src="screenshots/image1.png" width="24%">
@@ -76,6 +76,8 @@ This HarmonyOS application utilizes the NearLink Kit to perform real-time scanni
 
 
 # License
-**How To Scan Nearby Devices With NearLink** is distributed under the terms of the MIT License
-See the [LICENSE](./LICENSE) for more information.
+**How To Scan Nearby Devices With NearLink** is distributed under the terms of the **MIT License**
+See the [LICENSE](LICENSE) for more information.
+
+
 
